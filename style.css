@@ -3,34 +3,37 @@ table, th, td {
     width: 350px;
     height: 60px;
     border-radius: 15px;
-    border: 3px solid black;
+    border: 0px solid black;
 }
-
 table {
     margin: 0 auto;
+    border: 8px solid black;
 }
-
 button {
     width: 130px;
     height: 50px;
     border-radius: 15px;
     border: 3px solid black;
+    cursor: pointer;
+    transition: all .5s;
+    background-color: ;
 }
-
+button:hover{
+    color: white;
+    background-color: blueviolet;
+}
 #display {
     background-color: grey;
-    color: limegreen
-
+    color: limegreen;
+    font-size: 20px;
+    text-align: right;
 }
-
 body{
     background-color: skyblue;
 }
-
 .blankcell {
     background-color: darkgrey;
 }
-
 #ti84 {
     border: 0px;
     height: 20px;
