@@ -1,0 +1,13 @@
+body{
+    background-color: purple;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#car-img{
+    width: 250px;
+}
+
+#car-img hover{
+
+}

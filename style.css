@@ -1,0 +1,38 @@
+table, th, td {
+    background-color: lightgrey;
+    width: 350px;
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+table {
+    margin: 0 auto;
+}
+
+button {
+    width: 130px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+#display {
+    background-color: grey;
+    color: limegreen
+
+}
+
+body{
+    background-color: skyblue;
+}
+
+.blankcell {
+    background-color: darkgrey;
+}
+
+#ti84 {
+    border: 0px;
+    height: 20px;
+    font-weight: bold;
+}
