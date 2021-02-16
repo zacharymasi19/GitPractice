@@ -1,5 +1,5 @@
 table, th, td {
-    background-color: lightgrey;
+    background-color: goldenrod;
     width: 350px;
     height: 60px;
     border-radius: 15px;
@@ -20,22 +20,38 @@ button {
 }
 button:hover{
     color: white;
-    background-color: blueviolet;
+    background-color: maroon;
 }
 #display {
-    background-color: grey;
+    background-color: maroon;
     color: limegreen;
     font-size: 20px;
     text-align: right;
 }
-body{
+body {
     background-color: skyblue;
+    background-image: url("http://clipart-library.com/images/gceERxXri.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .blankcell {
-    background-color: darkgrey;
+    background-color: blueviolet;
 }
 #ti84 {
     border: 0px;
     height: 20px;
     font-weight: bold;
+}
+
+h1 {
+    color: maroon;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+#html-rainbow-text {
+    font-size: 100px;
 }
