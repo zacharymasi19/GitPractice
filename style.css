@@ -1,0 +1,99 @@
+table, th, td {
+    background-color: goldenrod;
+    width: 350px;
+    height: 60px;
+    border-radius: 15px;
+    border: 0px solid black;
+}
+table {
+    margin: 0 auto;
+    border: 8px solid black;
+}
+button {
+    width: 130px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: all .5s;
+}
+button:hover{
+    color: white;
+    background-color: skyblue;
+    transition: 1.5s all;
+}
+#display {
+    background-color: maroon;
+    color: limegreen;
+    font-size: 20px;
+    text-align: right;
+}
+body {
+    background-image: url("http://clipart-library.com/images/gceERxXri.gif"), url("https://wallpaperaccess.com/full/313409.jpg"), url(https://media2.giphy.com/media/eiMzTkBCN4lGg/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d90700;
+    overflow: hidden;
+}
+#emptycell1 {
+    background-image: url(http://nerdreactor.com/wp-content/uploads/2010/10/toradora_ride_taiga-aisaka.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#emptycell2 {
+    background-image: url(https://i.ytimg.com/vi/KmHhjogmBzY/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ti84 {
+    border: 0px;
+    height: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    color: maroon;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.glow {
+    animation: glow 1s ease-in-out infinite alternate;
+    color: black;
+    font-size: 50px;
+    animation-duration: 2s;
+    text-shadow: 2px 2px 5px red;
+}
+
+@keyframes glow {
+    from {
+    margin-left: 100%;
+    width: 300%;
+    } 
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+
+.glow2 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+
+.x {
+    color: red;
+}
+
+.y {
+    color: orange;
+}
+
+.answer {
+    color: blue;
+}
